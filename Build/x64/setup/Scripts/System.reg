@@ -22,7 +22,7 @@ Windows Registry Editor Version 5.00
 "ACSettingIndex"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e]
-"ACSettingIndex"=dword:00000000
+"ACSettingIndex"=dword:00000708
 
 [HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\a1841308-3541-4fab-bc81-f71556f20b4a\0012ee47-9041-4b5d-9b77-535fba8b1442\6738e2c4-e8a5-4a42-b16a-e040e769756e]
 "ACSettingIndex"=dword:00000000
@@ -31,10 +31,10 @@ Windows Registry Editor Version 5.00
 "ACSettingIndex"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\a1841308-3541-4fab-bc81-f71556f20b4a\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e]
-"ACSettingIndex"=dword:00000000
+"ACSettingIndex"=dword:00000708
 
 [HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\e9a42b02-d5df-448d-aa00-03f14749eb61\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e]
-"ACSettingIndex"=dword:00000000
+"ACSettingIndex"=dword:00000708
 
 [HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Remote Assistance]
 "fAllowToGetHelp"=dword:00000000
@@ -84,6 +84,7 @@ Windows Registry Editor Version 5.00
 "PagingFiles"=hex(7):43,00,3a,00,5c,00,70,00,61,00,67,00,65,00,66,00,69,00,6c,\
   00,65,00,2e,00,73,00,79,00,73,00,20,00,34,00,30,00,39,00,36,00,20,00,34,00,\
   30,00,39,00,36,00,00,00,00,00
+"SwapfileControl"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Terminal Server]
 "fAllowToGetHelp"=dword:00000000

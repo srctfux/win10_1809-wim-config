@@ -4,6 +4,57 @@ powercfg -h off
 
 reg IMPORT %WINDIR%\Setup\Scripts\Software.reg
 
+sc config AppXSvc start= disabled
+sc config AxInstSV start= disabled
+sc config BITS start= disabled
+sc config CDPUserSvc start= disabled
+sc config defragsvc start= disabled
+sc config diagnosticshub.standardcollector.service start= disabled
+sc config DiagTrack start= disabled
+sc config DPS start= disabled
+sc config DsmSvc start= disabled
+sc config DusmSvc start= disabled
+sc config fdPHost start= disabled
+sc config FDResPub start= disabled
+sc config LanmanServer start= disabled
+sc config LanmanWorkstation start= disabled
+sc config lfsvc start= disabled
+sc config LicenseManager start= disabled
+sc config lmhosts start= disabled
+sc config MessagingService start= disabled
+sc config NcaSvc start= disabled
+sc config NcbService start= disabled
+sc config netbios start= disabled
+sc config netbt start= disabled
+sc config OneSyncSvc start= disabled
+sc config p2pimsvc start= disabled
+sc config PNRPAutoReg start= disabled
+sc config PNRPsvc start= disabled
+sc config RetailDemo start= disabled
+sc config PushToInstall start= disabled
+sc config ShellHWDetection start= disabled
+sc config SSDPSRV start= disabled
+sc config TabletInputService start= disabled
+sc config upnphost start= disabled
+sc config UsoSvc start= disabled
+sc config WdiServiceHost start= disabled
+sc config WdiSystemHost start= disabled
+sc config WdNisSvc start= disabled
+sc config wercplsupport start= disabled
+sc config WerSvc start= disabled
+sc config wisvc start= disabled
+sc config wlidsvc start= disabled
+sc config WMPNetworkSvc start= disabled
+sc config WPDBusEnum start= disabled
+sc config workfolderssvc start= disabled
+sc config WpnService start= disabled
+sc config WSearch start= disabled
+sc config wuauserv start= disabled
+sc config XblAuthManager start= disabled
+sc config XblGameSave start= disabled
+sc config XboxGipSvc start= disabled
+sc config XboxNetApiSvc start= disabled
+
 schtasks /Change /TN "\Microsoft\Windows\AppID\EDP Policy Manager" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /DISABLE
@@ -63,6 +114,7 @@ schtasks /Change /TN "\Microsoft\Windows\Windows Media Sharing\UpdateLibrary" /D
 schtasks /Change /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start" /DISABLE
 schtasks /Change /TN "\Microsoft\XblGameSave\XblGameSaveTask" /DISABLE
 
-schtasks /Create /TN "\Microsoft\Windows\Diagnosis\DisableAutoLogger" /XML "%WINDIR%\Setup\Scripts\DisableAutoLogger.xml"
+copy /Y %WINDIR%\Setup\Scripts\DisableAPM.exe C:\Windows\SysWOW64
+schtasks /create /TN DisableAPM /XML %WINDIR%\Setup\Scripts\DisableAPM.xml
 
 rd /s /q  %WINDIR%\Setup\Scripts

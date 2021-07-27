@@ -113,6 +113,10 @@ Windows Registry Editor Version 5.00
 "SecurityHealth"=-
 "WindowsDefender"=-
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce]
+"Disabledmwappushservice"="sc config dmwappushservice start= disabled"
+"DisableTokenBroker"="sc config TokenBroker start= disabled"
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration]
 "DisableResetbase"=dword:00000000
 

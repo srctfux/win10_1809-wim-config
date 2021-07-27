@@ -81,6 +81,9 @@ Windows Registry Editor Version 5.00
 "ShowRecent"=dword:00000000
 "ShowFrequent"=dword:00000000
 
+[HKEY_USERS\BUILD\Control Panel\Mouse]
+"MouseSensitivity"="12"
+
 [HKEY_USERS\BUILD\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "Hidden"=dword:00000001
 "IconsOnly"=dword:00000001
@@ -115,6 +118,25 @@ Windows Registry Editor Version 5.00
 
 [HKEY_USERS\BUILD\SOFTWARE\Microsoft\Windows\CurrentVersion\Windows Search]
 "CortanaConsent"=dword:00000000
+
+[HKEY_USERS\BUILD\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce]
+"TurnOffOPV"="reg add \"HKCU\\SOFTWARE\\Microsoft\\Internet Explorer\\Feeds\" /v \"TurnOffOPV\" /t REG_DWORD /d \"1\" /f"
+"NoSyncStatus"="reg add \"HKCU\\SOFTWARE\\Microsoft\\Feeds\" /v \"SyncStatus\" /t REG_DWORD /d \"0\" /f"
+"MinAnimate"="reg add \"HKCU\\Control Panel\\Desktop\\WindowMetrics\" /v \"MinAnimate\" /t REG_SZ /d \"0\" /f"
+"UserPreferencesMask"="reg add \"HKCU\\Control Panel\\Desktop\" /v \"UserPreferencesMask\" /t REG_BINARY /d \"9012038010000000\" /f"
+"TaskbarAnimations"="reg add \"HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\" /v \"TaskbarAnimations\" /t REG_DWORD /d \"0\" /f"
+"HttpAcceptLanguageOptOut"="reg add \"HKCU\\Control Panel\\International\\User Profile\" /v \"HttpAcceptLanguageOptOut\" /t REG_DWORD /d \"1\" /f"
+"Language HotKey"="reg add \"HKCU\\Keyboard Layout\\Toggle\" /v \"Language HotKey\" /t REG_SZ /d \"3\" /f"
+"Layout HotKey"="reg add \"HKCU\\Keyboard Layout\\Toggle\" /v \"Layout HotKey\" /t REG_SZ /d \"3\" /f"
+"NOC_GLOBAL_SETTING_TOASTS_ENABLED"="reg add \"HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Notifications\\Settings\" /v \"NOC_GLOBAL_SETTING_TOASTS_ENABLED\" /t REG_DWORD /d \"0\" /f"
+"FPEnabled"="reg add \"HKCU\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\microsoft.microsoftedge_8wekyb3d8bbwe\\MicrosoftEdge\\FlipAhead\" /v \"FPEnabled\" /t REG_DWORD /d \"0\" /f"
+"DoNotTrack"="reg add \"HKCU\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\microsoft.microsoftedge_8wekyb3d8bbwe\\MicrosoftEdge\\Main\" /v \"DoNotTrack\" /t REG_DWORD /d \"1\" /f"
+"OptimizeWindowsSearchResultsForScreenReaders"="reg add \"HKCU\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\microsoft.microsoftedge_8wekyb3d8bbwe\\MicrosoftEdge\\Main\" /v \"OptimizeWindowsSearchResultsForScreenReaders\" /t REG_DWORD /d \"0\" /f"
+"EnabledV9"="reg add \"HKCU\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\microsoft.microsoftedge_8wekyb3d8bbwe\\MicrosoftEdge\\PhishingFilter\" /v \"EnabledV9\" /t REG_DWORD /d \"0\" /f"
+"EnableEncryptedMediaExtensions"="reg add \"HKCU\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\microsoft.microsoftedge_8wekyb3d8bbwe\\MicrosoftEdge\\Privacy\" /v \"EnableEncryptedMediaExtensions\" /t REG_DWORD /d \"0\" /f"
+"ShowSearchSuggestionsGlobal"="reg add \"HKCU\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\microsoft.microsoftedge_8wekyb3d8bbwe\\MicrosoftEdge\\User\\Default\\SearchScopes\" /v \"ShowSearchSuggestionsGlobal\" /t REG_DWORD /d \"0\" /f"
+"DelDownloadsDesktopIni"="cmd /c del /ah \"%USERPROFILE%\\Downloads\\desktop.ini\""
+"DelDesktopDesktopIni"="cmd /c del /ah \"%USERPROFILE%\\Desktop\\desktop.ini\""
 
 [HKEY_USERS\BUILD\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Wpad]
 "WpadOverride"=dword:00000001
