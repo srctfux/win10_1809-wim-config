@@ -1,0 +1,206 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\CI\Policy]
+"UpgradedSystem"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power]
+"HibernateEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes]
+"ActivePowerScheme"="e9a42b02-d5df-448d-aa00-03f14749eb61"
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\381b4222-f694-41f0-9685-ff5bb260df2e\0012ee47-9041-4b5d-9b77-535fba8b1442\6738e2c4-e8a5-4a42-b16a-e040e769756e]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\381b4222-f694-41f0-9685-ff5bb260df2e\238c9fa8-0aad-41ed-83f4-97be242c8f20\29f6c1db-86da-48c5-9fdb-f2b67b1f44da]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\381b4222-f694-41f0-9685-ff5bb260df2e\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e]
+"ACSettingIndex"=dword:00000708
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c\0012ee47-9041-4b5d-9b77-535fba8b1442\6738e2c4-e8a5-4a42-b16a-e040e769756e]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\a1841308-3541-4fab-bc81-f71556f20b4a\0012ee47-9041-4b5d-9b77-535fba8b1442\6738e2c4-e8a5-4a42-b16a-e040e769756e]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\a1841308-3541-4fab-bc81-f71556f20b4a\238c9fa8-0aad-41ed-83f4-97be242c8f20\29f6c1db-86da-48c5-9fdb-f2b67b1f44da]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\a1841308-3541-4fab-bc81-f71556f20b4a\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Power\User\PowerSchemes\e9a42b02-d5df-448d-aa00-03f14749eb61\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Remote Assistance]
+"fAllowToGetHelp"=dword:00000000
+"fAllowFullControl"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client]
+"DisabledByDefault"=dword:00000001
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Server]
+"DisabledByDefault"=dword:00000001
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Client]
+"DisabledByDefault"=dword:00000001
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\SSL 3.0\Server]
+"DisabledByDefault"=dword:00000001
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client]
+"DisabledByDefault"=dword:00000001
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server]
+"DisabledByDefault"=dword:00000001
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client]
+"DisabledByDefault"=dword:00000000
+"Enabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server]
+"DisabledByDefault"=dword:00000001
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client]
+"DisabledByDefault"=dword:00000000
+"Enabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server]
+"DisabledByDefault"=dword:00000000
+"Enabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Session Manager\Memory Management]
+"PagingFiles"=hex(7):43,00,3a,00,5c,00,70,00,61,00,67,00,65,00,66,00,69,00,6c,\
+  00,65,00,2e,00,73,00,79,00,73,00,20,00,34,00,30,00,39,00,36,00,20,00,34,00,\
+  30,00,39,00,36,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\Terminal Server]
+"fAllowToGetHelp"=dword:00000000
+"fAllowFullControl"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\WMI\Autologger\Microsoft-Windows-Setup]
+"Start"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\WMI\Autologger\WdiContextLog]
+"Start"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Control\WMI\Autologger\WiFiSession]
+"Start"=dword:00000000
+
+; IPv6
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\Dnscache\Parameters]
+"AddrConfigControl"=dword:00000000
+
+; IPv6
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\iphlpsvc\config]
+"Enable6to4"=dword:00000003
+"IsatapState"=dword:00000003
+
+; IPv6
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\iphlpsvc\Teredo]
+"ServerName"="win10.ipv6.microsoft.com"
+"RefreshInterval"=dword:00000258
+"Type"=dword:00000006
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\LanmanServer\Parameters]
+"SMB1"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\NetBT\Parameters]
+"EnableLMHOSTS"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\NlaSvc\Parameters\Internet]
+"EnableActiveProbing"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules]
+"CDPSvc-In-UDP"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37407|Desc=@FirewallAPI.dll,-37408|EmbedCtxt=@FirewallAPI.dll,-37402|"
+"CDPSvc-Out-UDP"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37409|Desc=@FirewallAPI.dll,-37410|EmbedCtxt=@FirewallAPI.dll,-37402|"
+"CDPSvc-In-TCP"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37403|Desc=@FirewallAPI.dll,-37404|EmbedCtxt=@FirewallAPI.dll,-37402|"
+"CDPSvc-Out-TCP"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37405|Desc=@FirewallAPI.dll,-37406|EmbedCtxt=@FirewallAPI.dll,-37402|"
+"CDPSvc-WFD-In-TCP"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37411|Desc=@FirewallAPI.dll,-37412|EmbedCtxt=@FirewallAPI.dll,-37402|TTK2_28=WFDCDPSvc|"
+"CDPSvc-WFD-Out-TCP"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Public|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37413|Desc=@FirewallAPI.dll,-37414|EmbedCtxt=@FirewallAPI.dll,-37402|TTK2_28=WFDCDPSvc|"
+"Microsoft-Windows-Unified-Telemetry-Client"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=443|App=%SystemRoot%\\system32\\svchost.exe|Svc=DiagTrack|Name=@%windir%\\system32\\diagtrack.dll,-3001|Desc=@%windir%\\system32\\diagtrack.dll,-3003|EmbedCtxt=DiagTrack|"
+"ProximityUxHost-Sharing-In-TCP-NoScope"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=6|App=%SystemRoot%\\system32\\proximityuxhost.exe|Name=@FirewallAPI.dll,-36252|Desc=@FirewallAPI.dll,-36253|EmbedCtxt=@FirewallAPI.dll,-36251|TTK=ProxSharing|"
+"DeliveryOptimization-TCP-In"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=7680|App=%SystemRoot%\\system32\\svchost.exe|Svc=dosvc|Name=@%systemroot%\\system32\\dosvc.dll,-102|Desc=@%systemroot%\\system32\\dosvc.dll,-104|EmbedCtxt=@%systemroot%\\system32\\dosvc.dll,-100|Edge=TRUE|"
+"DeliveryOptimization-UDP-In"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=7680|App=%SystemRoot%\\system32\\svchost.exe|Svc=dosvc|Name=@%systemroot%\\system32\\dosvc.dll,-103|Desc=@%systemroot%\\system32\\dosvc.dll,-104|EmbedCtxt=@%systemroot%\\system32\\dosvc.dll,-100|Edge=TRUE|"
+"RemoteAssistance-RAServer-In-TCP-NoScope-Active"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\raserver.exe|Name=@FirewallAPI.dll,-33011|Desc=@FirewallAPI.dll,-33014|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-RAServer-Out-TCP-NoScope-Active"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\raserver.exe|Name=@FirewallAPI.dll,-33015|Desc=@FirewallAPI.dll,-33018|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-DCOM-In-TCP-NoScope-Active"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=135|App=%SystemRoot%\\system32\\svchost.exe|Svc=rpcss|Name=@FirewallAPI.dll,-33035|Desc=@FirewallAPI.dll,-33036|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-In-TCP-EdgeScope-Active"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\msra.exe|Name=@FirewallAPI.dll,-33003|Desc=@FirewallAPI.dll,-33006|EmbedCtxt=@FirewallAPI.dll,-33002|Edge=TRUE|Defer=App|"
+"RemoteAssistance-Out-TCP-Active"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\msra.exe|Name=@FirewallAPI.dll,-33007|Desc=@FirewallAPI.dll,-33010|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-SSDPSrv-In-UDP-Active"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Private|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-33019|Desc=@FirewallAPI.dll,-33022|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-SSDPSrv-Out-UDP-Active"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Private|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-33023|Desc=@FirewallAPI.dll,-33026|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-SSDPSrv-In-TCP-Active"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|Profile=Private|LPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-33027|Desc=@FirewallAPI.dll,-33030|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-SSDPSrv-Out-TCP-Active"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|Profile=Private|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-33031|Desc=@FirewallAPI.dll,-33034|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-PnrpSvc-UDP-In-EdgeScope-Active"="v2.29|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Private|LPort=3540|App=%systemroot%\\system32\\svchost.exe|Svc=pnrpsvc|Name=@FirewallAPI.dll,-33039|Desc=@FirewallAPI.dll,-33040|EmbedCtxt=@FirewallAPI.dll,-33002|Edge=TRUE|Defer=App|"
+"RemoteAssistance-PnrpSvc-UDP-OUT-Active"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Private|App=%systemroot%\\system32\\svchost.exe|Svc=pnrpsvc|Name=@FirewallAPI.dll,-33037|Desc=@FirewallAPI.dll,-33038|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"{BF642C76-C41A-41A2-8C26-E24E0BCE29F3}"="v2.29|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.Cortana_1.11.5.17763_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Cortana/resources/PackageDisplayName}|Desc=@{Microsoft.Windows.Cortana_1.11.5.17763_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Cortana/resources/ProductDescription}|LUOwn=S-1-5-21-1342993738-1197478489-2303447411-1001|AppPkgId=S-1-15-2-1861897761-1695161497-2927542615-642690995-327840285-2659745135-2630312742|EmbedCtxt=@{Microsoft.Windows.Cortana_1.11.5.17763_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Cortana/resources/PackageDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"{54D2D6CC-F2AC-41B9-BFE5-F532E1FA4AA2}"="v2.29|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.Windows.Cortana_1.11.5.17763_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Cortana/resources/PackageDisplayName}|Desc=@{Microsoft.Windows.Cortana_1.11.5.17763_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Cortana/resources/ProductDescription}|LUOwn=S-1-5-21-1342993738-1197478489-2303447411-1001|AppPkgId=S-1-15-2-1861897761-1695161497-2927542615-642690995-327840285-2659745135-2630312742|EmbedCtxt=@{Microsoft.Windows.Cortana_1.11.5.17763_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Cortana/resources/PackageDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+
+; UPnP
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\Tcpip\Parameters]
+"EnableICMPRedirect"=dword:00000000
+"IGMPLevel"=dword:00000000
+
+; IPv6
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\TCPIP6\Parameters]
+"DisabledComponents"=dword:000000ff
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\BcastDVRUserService]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\CDPSvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\CDPUserSvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\DoSvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\iphlpsvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\NcdAutoSetup]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\SecurityHealthService]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\SgrmBroker]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\UnistoreSvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\UserDataSvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\WinDefend]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\WinHttpAutoProxySvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\WpnUserService]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\wscsvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\BUILD\ControlSet001\Services\W32Time\Parameters]
+"NtpServer"="216.239.35.0,0x9"
+
+[HKEY_LOCAL_MACHINE\BUILD\Maps]
+"AutoUpdateEnabled"=dword:00000000
+

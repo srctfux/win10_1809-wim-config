@@ -1,0 +1,6 @@
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.reg text eol=crlf
+
+*.exe binary
+*.xml binary
